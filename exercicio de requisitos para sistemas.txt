@@ -1,0 +1,43 @@
+Resumo de projeto
+
+Fomos contratados para fazer um site para um estúdio de tatuagem
+
+
+Requisitos Funcionais
+
+
+Cadastro de clientes
+O sistema deve permitir que o estúdio registre o cadastro de cada cliente, as informações que precisam ser insereidas incluem:
+
+Nome completo:
+informação de contato:
+Senha:
+
+-Sistema de agendamento da data e hora 
+-Sistema de pagamento adiantado (pix/cartão)
+-Sistema de informações (localização do estúdio, equipe responsável pelo estúdio, número pessoal do tatuador responsável para tirar dúvidas)
+
+Agendamento
+O sistema deve permitir que o cliente após se registrar, agendar uma data e com quem ira fazer a tatuagem, inclua as seguintes informações:
+data:
+hora:
+Tatuador:
+
+pagamento adiantado
+O estúdio deve possibilizar o pagamento adiantado da tatuagem, incluindo as seguintes informações:
+pix:
+cartão:
+Requisitos não funcionais
+-Tempo de resposta:O sistema deve responder aos agendamentos de clientes em no máximo 2 segundos.
+-O sistema deve processar até 200 agendamentos simultâneos sem degradar o desempenho do site.
+
+
+-Proteção de dados:Informações sensíveis dos clientes, como nome e contato, devem ser criptografadas para evitar acessos não autorizados.
+-Autentificação de usúarios: O acesso ao sistema deve ser restrito aos funcionários autorizados, que devem usar credencias(nomes de usuário e senha) para fazer login.
+-Interface intuitiva: As telas inciais precisam ser práticas simples e diretas com botões chamativos e claros.
+-Suporte para Dispositivos:O site deve ser disponivel para todo e qualquer dispositivo ( tablets, notebooks, computadores, celulares ect...)
+-O sistema deve estar ativo em 100% do tempo de funcionamento do estúdio.
+-Em caso de erros ou falhas no sistema, que seja capaz de se recuperar e estabilizar o mais rápido possível.
+
+
+
